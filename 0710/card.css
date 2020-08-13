@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
+h1{
+    margin: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card{
+    position: relative;
+    width: 335px;
+    height: 500px;
+    box-shadow: 0 0 10px rgb(114, 114, 114);
+    overflow: hidden; 
+}
+
+#card > .detail{
+    position: absolute;
+    top: 390px ;
+    left: 0;
+    width: 335px;
+    height: 361px;
+    background-color: #fff;
+    transition: top 0.3s;
+    z-index: 2;
+    padding: 27px 35px 27px 35px
+    
+}
+
+#card > .detail >.title{
+    width: 100%;
+    overflow: hidden;
+}
+
+#card > .detail >.title > h1{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #393c45;
+    float: left;
+}
+
+#card > .detail >.title > h2{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #48daa1; 
+    float: right;
+}
+#card > .detail >.title2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#b1b1b3;
+    padding: 2px 0 20px 0;
+    margin-bottom: 10px;
+}
+
+#card:hover > .detail{
+    top:250px;
+}
+
+#card >.bg-green{
+    position: absolute;
+    top: 0 ;
+    left: 0;
+    width: 335px;
+    height: 500px;
+    background-color:#48daa1;
+    opacity: 0;
+    transition: opacity 1s;
+    z-index: 1;
+}
+
+#card:hover>.bg-green{
+    opacity: 0.7;
+}
+#card > .btn{
+    cursor: pointer;
+    position: absolute;
+    top:120px;
+    left:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    height: 49px;
+    margin-left:-87.5px;
+    z-index: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+    border: 2px solid #fff;
+    transition: color 0.3s, background-color 0.3s, opacity: 0.3;
+    transform: scale(1.2);
+    opacity: 0;
+}
+
+.btn:hover{
+
+    color:#48daa1;
+    background-color:#fff;
+}
+#card:hover>.btn{  
+    transform:scale(1);
+    opacity: 1;
+}
+
+#card > .detail >.size{
+ margin-bottom: 10px;
+}
+
+#card > .detail >.size>h2{
+    font-size:14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#card > .detail >.size>.size_h1{
+    margin-bottom: 5px;
+}
+
+#card > .detail >.size>.size_h2{
+    font-size:14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#b1b1b3;
+}
+
+/* #card > .detail >.color>{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+#card > .detail >.color>h2{
+    font-size:14px;
+    margin-top: 40px;
+}
+
+
+#card > .detail >.color>.test{
+    display:flex;
+    justify-content:left;
+    align-items: center;
+}
+
+#card > .detail >.color>.test>.circle1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: blue;
+    margin-right: 10px;
+    box-shadow: 0 0 5px #000;
+    
+}
+#card > .detail >.color>.test>.circle2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 10px;
+}#card > .detail >.color>.test>.circle3{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 10px;
+}#card > .detail >.color>.test>.circle4{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: green;
+    margin-right: 10px;
+}

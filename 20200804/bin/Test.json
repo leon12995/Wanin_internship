@@ -1,0 +1,1 @@
+{"type":"Scene","props":{"width":1136,"visible":true,"scaleY":1,"scaleX":1,"height":640,"alpha":1},"compId":2,"child":[{"type":"Image","props":{"y":-1,"x":5,"width":127,"skin":"comp/vslider$bar.png","scaleY":1,"scaleX":1,"rotation":0,"height":341,"alpha":1},"compId":3}],"loadList":["comp/vslider$bar.png"],"loadList3D":[]}

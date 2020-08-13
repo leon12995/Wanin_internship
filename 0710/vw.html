@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #app{
+            width:50%;
+            background-color: tan;
+        }
+
+        #app >h1{
+            font-size:50px;
+        }
+
+        @media screen and (max-width: 680px){
+            #app{
+                width:100%;
+                background-color: teal;
+            }
+            #app >h1{
+                font-size:20px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div id="app">
+        <h1>HELLO WOLRD!!!!</h1>
+    </div>
+</body>
+</html>

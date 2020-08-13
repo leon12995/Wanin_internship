@@ -1,0 +1,27 @@
+.skill {
+    width: 100%;
+    height: auto;
+}
+
+.skill>.mid {
+    max-width: 1366px;
+    height: auto;
+    overflow: hidden;
+    background-color: tan;
+    margin: 0 auto;
+}
+
+.skill>.mid>.left-box {
+    width: 50%;
+    height: 570px;
+    float: left;
+    background-color: #f8f9f9;
+    padding-top: 164px;
+}
+.skill>.mid>.right-box {
+    width: 50%;
+    height: 570px;
+    float: right;
+    background-image: url("./images/01.jfif");
+    background-position: center;
+}
